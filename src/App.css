@@ -1,0 +1,163 @@
+ @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Radio Canada', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: black
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.bg-light-white {
+  background: #ffffff26;
+}
+
+.pd-1 {
+  padding: 1rem;
+}
+
+.header {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #ff009b;
+}
+
+.form-field {
+  position: relative;
+  width: 100%;
+}
+
+.form-field input {
+  width: 98.5%;
+  font-size: 1rem;
+  padding: .5rem 0;
+  background: #000;
+  border: 1px solid #ff009b;
+  padding-left: 1rem;
+  transition: 4s;
+}
+
+.form-field input:focus-visible {
+  outline: none;
+  border: 1px solid #df0c8c;
+  font-size: 1.1rem;
+}
+
+.form-field button {
+  position: absolute;
+  right: 0;
+  background: #ff009b;
+  border: none;
+  padding: .6rem;
+  font-size: 1rem;
+  border-radius: .1rem;
+}
+
+.todos-layouts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.todos-section {
+  flex: 1 1;
+  width: 100%;
+  padding: .5rem;
+  background: #ffffff0f;
+  border-radius: .2rem;
+}
+
+.todos-section h3 {
+  font-size: 1.2rem;
+  color: #ff009b;
+  padding: 1rem;
+  border-bottom: 1px solid #ff009b;
+  /*background: #00000030;*/
+}
+
+.todos-list {
+  padding: 1rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: wrap;
+  gap: 1rem;
+}
+
+.todos-item {
+  width: 100%;
+  background: #ff009b;
+  padding: 1rem;
+  border-radius: .2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.todos-item span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .4rem;
+}
+
+.icons {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
